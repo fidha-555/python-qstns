@@ -1,0 +1,6 @@
+num = [3,5,8,4,5,6,9,4,2,4,7,6,5,9]
+for i in range (len(num)):
+    if num[i] in num[:i]:
+        print(num[i])
+        break
+

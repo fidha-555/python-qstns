@@ -1,7 +1,7 @@
 nums = [4,8,2,6,7]
 a = nums.pop(0)
 b= nums.pop(-1)
-nums.append(a)
+nums.append(a)  
 nums.reverse()
 nums.append(b)
 nums.reverse()

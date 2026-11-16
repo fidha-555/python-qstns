@@ -11,6 +11,6 @@ try:
     for i in l:
       int(i)
     print(True)
-except:
+except ValueError:
     print(False)
        

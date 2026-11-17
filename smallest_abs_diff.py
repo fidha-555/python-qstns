@@ -12,7 +12,7 @@ for i in range(len(num)):
             x = num[i]
             y = num[j]
             min = num[j] - num[i]
-            
+
 print(x,y)
 
 
